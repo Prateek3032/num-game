@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newMatch() {  //A game is composed of three matches
-        correctButton= random.nextInt(4);
+        correctButton= random.nextInt(4);  //used rando function so that correct answer is not restricted to a single button. It can be changed automatically
         int operand1 = random.nextInt(10);
         int operand2 = random.nextInt(10);
         int n=random.nextInt(4);
