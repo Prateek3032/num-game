@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         int correctAnswer=-100;
         //check is operand2 is not zero; otherwise in case of division-divide by zero error will come
         String operator = operators[random.nextInt(4)];
-        textView2.setText(operand1 + operator + operand2);
+        textView2.setText(operand1 + operator + operand2); 
 
       // Your code here, to display correct and incorrect options on the buttons
 
