@@ -25,6 +25,8 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
+//Program for num_game
+
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     int matchCounter=0,gamecounter=0;
